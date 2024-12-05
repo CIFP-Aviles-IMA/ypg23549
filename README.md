@@ -1,2 +1,2 @@
 # ypg23549
-Programación del robot
+Este proyecto tiene como objetivo la programacion de un brazo robotico que , partiendo de un codigo original en C++, habra que convertir a Python.El código utiliza pines de salida que han sido seleccionados previamente. La placa empleada es un Jetson Nano. Utilizaremos una función denominada def movemotor(controLin, controlOut), que permite al brazo robótico realizar movimientos basados en los valores proporcionados por el potenciómetro.Estos valores seran recibidos por los pines de entrada, se distribuyen a los servomotores mediante las salidas. Según el valor recibido, el brazo alcanzará una posición específica.Además, se incorpora un botón que permite controlar la apertura y cierre de la pinza del brazo robótico.
